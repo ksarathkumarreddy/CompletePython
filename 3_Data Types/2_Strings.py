@@ -59,5 +59,5 @@ print(li is li1)
 di = {1:2,3:4}
 di1 = {1:2,3:4}
 print(di is di1)
-
+print("hello everyone")
 
