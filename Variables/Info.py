@@ -19,3 +19,15 @@ msg = "hello"
 print(msg)
 
 
+
+# assign single value to multiple variable
+a = b = c = 101
+print(a)
+print(b)
+print(c)
+
+# assign multiple values to multiple variables
+name, age, gender = 'sarath', 22, 'male'
+print(name)
+print(age)
+print(gender)
