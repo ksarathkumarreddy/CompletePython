@@ -31,3 +31,6 @@ name, age, gender = 'sarath', 22, 'male'
 print(name)
 print(age)
 print(gender)
+
+id, exp, sal = 101, 3, 100000
+print(id,name,sal)
