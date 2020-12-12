@@ -4,6 +4,16 @@ For ex,
 Let us consider, Employee class.
 Employee class having   Emp id  Emp name    Emp Sal     Emp Office Adreess(Class variable)
                             I       I           I               Common for every one(sharable data)
+
+Instance variable:
+----------
+value of a variable is varied from object to object,then such type of variable are called instance variable.
+We can declare instance variable:
+----------
+1.inside constructor
+2.inside instance method
+3.outside of a class by using reference variable.
+
 '''
 class Emp:
     def __init__(self,id, name,sal, office):
@@ -20,7 +30,7 @@ vis.get_emp_details()
 Disadvantage of the above code:
 ---
 we are sharing common(sharable) data __init__ method 
-which causes memory waste...mkae it as a class variable..
+which causes memory waste...make it as a class variable..
 
 Firstly,instance variable can use in side constructor only..
 where as class variables can sharable and modifiy able...
