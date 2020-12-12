@@ -1,10 +1,17 @@
+#  Normal class having instance variables and instance methods
+'''
+For ex,
+Let us consider, Employee class.
+Employee class having   Emp id  Emp name    Emp Sal     Emp Office Adreess(Class variable)
+                            I       I           I               Common for every one(sharable data)
+'''
 class Emp:
     def __init__(self,id, name,sal, office):
-        self.id = id
-        self.name = name
+        self.id = id                       # id--> local variable
+        self.name = name                    # self.id--> instance variable
         self.sal = sal
         self.office = office
-    def get_emp_details(self):
+    def get_emp_details(self):              # instance method
         print("Emp details are:",self.id, self.name, self.sal, self.office)
 vis = Emp(101,'sarath',233333,'blr')
 vis.get_emp_details()
