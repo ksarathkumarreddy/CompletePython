@@ -14,6 +14,12 @@ We can declare instance variable:
 2.inside instance method
 3.outside of a class by using reference variable.
 
+Note:
+----
+Instance variables:
+---
+when we create an object at that time only memory allocation will be happened.
+
 '''
 class Emp:
     def __init__(self,id, name,sal, office):
