@@ -20,6 +20,9 @@ Emp.get_info()
 
 
 class Stu:
+    '''
+    this class belong to Student information by using class variables and class methods only.
+    '''
     clg_address = 'mpl'
     clg_name = 'Ganambica'
     @classmethod
@@ -27,3 +30,9 @@ class Stu:
         print("Student college address:",cls.clg_address,cls.clg_name)
 Stu.get_add()
 
+# Built in class attributes
+print(Stu.__dict__)
+print(Stu.__doc__)
+print(Stu.__name__)
+print(Stu.__module__)
+print(Stu.__bases__)
