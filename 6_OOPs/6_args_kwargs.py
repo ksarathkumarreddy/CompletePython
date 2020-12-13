@@ -18,6 +18,7 @@ def myfun(*argv):
     for arg in argv:
         print(arg)
 myfun("hello ","sarath")
+myfun("vishnu",'sarath','amma','bharath')
 
 # example
 def myfun1(arg1,*argv):
@@ -37,4 +38,5 @@ def myFun(**kwargs):
     # Driver code
 
 
-myFun(first='Geeks', mid='for', last='Geeks')  
+myFun(first='Geeks', mid='for', last='Geeks')
+

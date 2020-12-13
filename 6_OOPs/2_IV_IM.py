@@ -57,8 +57,9 @@ class Employee:
     def get_class_data(cls):
         print("Employee class shareable data:",cls.office)
 Employee.get_class_data()
-sarath = Employee(101,'vishnu',23000)
+sarath = Employee(101,'vishnu',23000)  # sarath is an object reference
 sarath.get_emp_details()
+print(sarath.__dict__)
 Employee.get_emp_details(sarath)   # it will convert internally like this
 
 '''
