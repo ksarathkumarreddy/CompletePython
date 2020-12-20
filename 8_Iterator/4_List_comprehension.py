@@ -31,3 +31,14 @@ print(obj)
 tup = (1,2,3,4)
 squ = [item * item for item in tup]
 print(squ)
+
+
+
+
+
+
+
+
+
+
+
